@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーンファイル">
+      <UniqueIdentifier>{bc804f0f-27dc-4aab-ac36-c00977c132fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーンファイル">
+      <UniqueIdentifier>{69fcef5c-649d-46af-9878-53b9c9abd979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダー ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\リソースファイル">
+      <UniqueIdentifier>{34ac39ff-316e-410c-bd14-62f486a49d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\リソースファイル">
+      <UniqueIdentifier>{57c13e3b-9dc8-45e8-bd12-d552d032cac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3Dオブジェクトファイル">
+      <UniqueIdentifier>{1463ce9c-edd4-4e88-86cb-5b3b882af76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクトファイル">
+      <UniqueIdentifier>{0391cc0a-3e1b-4bb1-ba96-99b4ec1d6f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3Dオブジェクトファイル">
+      <UniqueIdentifier>{08753866-dd1c-4955-80d1-6da2d60b9a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクトファイル">
+      <UniqueIdentifier>{ed5c265a-be17-4bf2-a940-fd9ce2ea0db4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Keylogger.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ヘッダー ファイル\シーンファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultClearScene.h">
+      <Filter>ヘッダー ファイル\シーンファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultOverScene.h">
+      <Filter>ヘッダー ファイル\シーンファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ヘッダー ファイル\シーンファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\シーンファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationModel.h">
+      <Filter>ヘッダー ファイル\リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>ヘッダー ファイル\リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>ヘッダー ファイル\リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル\リソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultClearBG.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBG.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon2D.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultOverBG.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="HitPointBar.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleName.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="StaminaBar.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TitlePress.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Stair.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonEnemy.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonField.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonMap.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonMapData.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonPlayer.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクトファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Keylogger.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\シーンファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultClearScene.cpp">
+      <Filter>ソース ファイル\シーンファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultOverScene.cpp">
+      <Filter>ソース ファイル\シーンファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\シーンファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationModel.cpp">
+      <Filter>ソース ファイル\リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>ソース ファイル\リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>ソース ファイル\リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>ソース ファイル\リソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultClearBG.cpp">
+      <Filter>ソース ファイル\2Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultOverBG.cpp">
+      <Filter>ソース ファイル\2Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBG.cpp">
+      <Filter>ソース ファイル\2Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="HitPointBar.cpp">
+      <Filter>ソース ファイル\2Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleName.cpp">
+      <Filter>ソース ファイル\2Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>ソース ファイル\2Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TitlePress.cpp">
+      <Filter>ソース ファイル\2Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="StaminaBar.cpp">
+      <Filter>ソース ファイル\2Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonEnemy.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonField.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonMap.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonMapData.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonPlayer.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Stair.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>ソース ファイル\3Dオブジェクトファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="common.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="unlitTexturePS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="unlitTextureVS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="vertexLightingPS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="vertexLightingVS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
